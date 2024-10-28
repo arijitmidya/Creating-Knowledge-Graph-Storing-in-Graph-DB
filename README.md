@@ -72,7 +72,12 @@ Section 4 ; Click on the "store entities and relationships to Neo4j" button , it
 
   command ( MATCH (n:Entity) RETURN n LIMIT 25; ) : It helps u see the entities ![image](https://github.com/user-attachments/assets/8d60cf80-2bd7-42b3-9d58-4847fbf1455b)
 
-  command ( MATCH (n)-[r]->(m) RETURN n, r, m ) : it helps u see the nodes , relationships ..  ![image](https://github.com/user-attachments/assets/bb52708f-7e08-461a-b1ec-2592b1c4eba7)
+  command ( MATCH (n)-[r]->(m) RETURN n, r, m ) : it helps u see the nodes , relationships ..  
+
+  ![image](https://github.com/user-attachments/assets/9207f5ac-148a-47f4-89d2-a589d5b1e1bf)
+
+  ![image](https://github.com/user-attachments/assets/6ed544de-3bdc-43df-9b95-bff27d1d030a)
+
 
   Note : Create free Neo4j account : https://neo4j.com/docs/aura/auradb/getting-started/create-database/
 
